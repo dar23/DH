@@ -39,7 +39,7 @@
 <!-- główna strona -->  
 
 <div class="main_info">
-
+<div class="item0">0</div>
   <div class="item0">0</div>
   <div class="item1">1</div>
   <div class="item2">2</div>
@@ -51,18 +51,6 @@
 </div>
 
 
-<div id="panel">
-        <form method="post">
-            <label for="username">Nazwa użytkownika:</label>
-            <input type="text" id="username" name="username">
-            <br>
-            <label for="password">Hasło:</label>
-            <input type="password" id="password" name="password">
-            <div id="lower">
-            <input type="checkbox"><label class="check" for="checkbox">Zapamiętaj mnie!</label>
-            <input type="submit" value="Login" name="submit_login">
-            </div>  
-        </form>
 
 
     <div id="panel">
