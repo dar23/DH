@@ -39,7 +39,7 @@
 <!-- główna strona -->  
 
 <div class="main_info">
-<div class="item0">0</div>
+
   <div class="item0">0</div>
   <div class="item1">1</div>
   <div class="item2">2</div>
