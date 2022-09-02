@@ -40,10 +40,17 @@
 
 <div class="main_info">
 
-  <div class="item0">0</div>
-  <div class="item1">1</div>
-  <div class="item2">2</div>
-  <div class="item3">3</div>  
+  <div class="item0">
+
+  <div class="author_photo">
+    <img src="darek.jpg" class="darek">
+  </div>
+
+
+  </div>
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3"></div>  
 
 
 

@@ -28,43 +28,87 @@ body{
 .grid-container  {
     background-color: rgb(220, 220, 220);
     text-align: center;
-    box-shadow:2px 2px 3px 0px rgb(86, 86, 86);
+    
     font-size: 30px;
   } 
   
   .item0 {
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
   
     grid-column:1/4;
-     border: 0.1px solid black;
+    
    
    
   }
   
   .item1 {
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
 
     
-     border: 0.1px solid black;
     
    
   }
 
   .item2 {
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
 
-    border: 0.1px solid black;
+  
   
     
    
   }
 
   .item3  {
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
 
     margin-top:0;
-    border: 0.1px solid black;
+ 
   }
+
+
+.author_photo{
+
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+width:90px;
+height:90px;
+justify-content: center;
+align-content: center;
+
+}
+
+
+img.darek{
+
+object-fit:fill;
+width:60%;
+height:60%;
+border-radius: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .icon_animation{
