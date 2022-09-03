@@ -39,7 +39,7 @@ body{
 
  .search{
 
-  margin-top: 24px;
+  margin-top: 26px;
  
  }
 
@@ -48,10 +48,10 @@ body{
 padding-left: 10px;
 width: 700px;
 height:30px;
-border-bottom-left-radius: 20px;
-border-bottom-right-radius: 20px;
-border-top-right-radius: 20px;
-border-top-left-radius:20px ;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius:10px ;
 border: 0.5px solid rgb(255, 255, 255);
 box-shadow: 2px 2px 4px 1px rgb(179, 178, 178);
  }
