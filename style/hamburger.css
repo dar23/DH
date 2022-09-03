@@ -23,8 +23,8 @@
 
 .hamburger_one_1{
 
-animation: ham_one 0.1s forwards;
-
+animation: ham_one 0.01s forwards;
+margin-top: 14px;
 }
 
 @keyframes ham_one{
@@ -40,7 +40,8 @@ animation: ham_one 0.1s forwards;
 
 
 .hamburger_two_2{
-    animation: ham_two 0.1s forwards;
+    animation: ham_two 0.01s forwards;
+    margin-top:14px;
     }
 
     @keyframes ham_two{
