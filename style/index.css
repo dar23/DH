@@ -82,10 +82,11 @@ align-content: center;
 img.darek{
 
 object-fit:fill;
-width:60%;
-height:60%;
+width:50%;
+height:50%;
 border-radius: 100%;
-
+border:3px solid rgb(255, 255, 255);
+box-shadow: none;
 }
 
 
