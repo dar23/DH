@@ -42,13 +42,32 @@
 
   <div class="item0">
 
+
+
+
+
   <div class="author_photo">
     <img src="darek.jpg" class="darek">
+
+  </div>
+
+ 
+  <div class="search">
+  <form action="./" method="post" >
+      <input type="text" name="searching"class="input_search" />
+ 
+  </form>
+</div>
+
+
+
+
+
   </div>
 
 
-  </div>
   <div class="item1">
+
 
 
 

@@ -25,21 +25,38 @@ body{
 
 }
 
-.grid-container  {
-    background-color: rgb(220, 220, 220);
-    text-align: center;
-    
-    font-size: 30px;
-  } 
-  
+
   .item0 {
     background-color: rgb(255, 255, 255);
-  
     grid-column:1/4;
-    
+    display: grid;
+    grid-template-columns:420px auto  ;
+   
+    gap: 0 0;
    
    
   }
+
+ .search{
+
+  margin-top: 24px;
+ 
+ }
+
+ .input_search{
+
+
+width: 700px;
+height:30px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+border-top-left-radius:20px ;
+border: 0.5px solid rgb(255, 255, 255);
+box-shadow: 2px 2px 4px 1px rgb(179, 178, 178);
+ }
+
+
   
   .item1 {
     background-color: rgb(255, 255, 255);
@@ -77,6 +94,9 @@ justify-content: center;
 align-content: center;
 
 }
+
+
+
 
 
 img.darek{
