@@ -52,10 +52,11 @@
   </div>
 
  
-  <div class="search">
-  <form action="./" method="post" >
+<div class="search">
+  <form  method="post">
+    <label for="search">
       <input type="text" name="searching"class="input_search" />
- 
+    </label>
   </form>
 </div>
 
