@@ -142,6 +142,7 @@ echo '</div>';
 <script src="js/hamburger.js"></script>
 
 
+<script src="js/search.js"></script>
 
 
 
