@@ -58,9 +58,10 @@
 <div class="search">
   <form  method="post">
     <label for="search" class="label_search">
+    <div class="common_element">  
       <input type="text" name="searching"class="input_search" />
-      <i class=" fa fa-search " aria-hidden="true"></i></input>
-   
+      <i class=" fa fa-search loop " aria-hidden="true"></i></input>
+    </div>
     </label>
 
   </form>
