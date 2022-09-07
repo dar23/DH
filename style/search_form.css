@@ -10,7 +10,7 @@
   padding-left: 10px;
   width:35px;
   height:35px;
-border-radius:50px;
+  border-radius:50px;
   border: 0.5px solid rgb(255, 255, 255);
   background-color:rgb(99, 98, 98);
   transition: width 0.2s;
@@ -27,8 +27,8 @@ i {
     position: relative;
     color: rgb(255, 255, 255);
     transition: .2s;
-   left: -46px;
-   top:1px;
+    left: -46px;
+ 
    
 }
 
