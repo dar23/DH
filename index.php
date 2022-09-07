@@ -1,4 +1,5 @@
 <?php  require("connection.php"); require('logowanie.php');require('menu.php');require('hamburger.php');
+    
 ?>
 
 
@@ -9,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style/hamburger.css">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/search_form.css">
     <link rel="stylesheet" href="style/logowanie.css">
     <link rel="stylesheet" href="style/main_post.css">
     <link rel="stylesheet" href="style/news.css">
@@ -31,6 +33,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Staatliches&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 
@@ -46,17 +49,20 @@
 
 
 
-  <div class="author_photo">
+ <!-- <div class="author_photo">
     <img src="darek.jpg" class="darek">
 
   </div>
-
+-->
  
 <div class="search">
   <form  method="post">
-    <label for="search">
+    <label for="search" class="label_search">
       <input type="text" name="searching"class="input_search" />
+      <i class=" fa fa-search " aria-hidden="true"></i></input>
+   
     </label>
+
   </form>
 </div>
 
