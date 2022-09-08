@@ -126,7 +126,7 @@ nav>ul  {
     margin: 0;
     padding: 0;
     width: 140px;
-    background: rgb(36, 36, 36);
+    background: rgb(69, 69, 69);
     height: 100%;
     overflow: auto;
     left:-140px;
@@ -172,7 +172,7 @@ li a{
 
 li:hover{
 
-background-color:  rgb(9, 100, 197);
+background-color:  rgb(73, 74, 74);
 
 }
 
@@ -193,7 +193,7 @@ padding:11px 7px 10px ;
 
 
  a.active {
-   background:   rgb(56, 56, 56);
+   background:   rgb(69, 69, 69);
     color: rgb(255, 255, 255);
     font-size: 10px;
     display:block;
@@ -242,7 +242,7 @@ display: none;
 margin-left: 139px;
 width: 190px;
 padding: 0;
-background: rgb(44, 44, 44);
+background: rgb(69, 69, 69);
 border-top-right-radius: 3px;
 border-bottom-right-radius: 3px;
 
