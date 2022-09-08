@@ -118,15 +118,18 @@ echo '<div class="place_to_posts">';
 while($row = mysqli_fetch_array($result)){
   $rowtitle=$row['title'];
   $rowwith=$row['articles'];
-echo "<div class='main_post'>"
   
-   .'<div class="photo">'
-
-      .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'
-      ."<div class='title'>".'<p class="pe">'.mb_strimwidth("$rowtitle",0,35,"...").'</p>'. "</div>".'</a>'
-      .'</div>'
-    
-    ."</div>";
+echo "<div class='main_post'>"       
+          .'<div class="photo">'
+             .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'
+                ."<div class='box'>"
+                    ."<div class='title'>"
+                      .'<p class="pe">'.mb_strimwidth("$rowtitle",0,35,"...").'</p>' 
+                    ."</div>"    
+                .'</div>'
+              .'</a>'
+         .'</div>'        
+     ."</div>";
      
 
     }
