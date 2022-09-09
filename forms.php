@@ -21,6 +21,19 @@ require('admin.php');
     
 <div class="panel">
 
+
+<form method="post" enctype="multipart/form-data">
+    <div class="main">AKTUALNOŚCI</div>
+    <input type="text" name="actual_title" placeholder="tytuł nagłówka"></input> 
+        <textarea type="text" name="actual_text"></textarea>
+        <input type="file" name="actual_file"></input> 
+        <input type="submit" name="submit"></input> 
+</form>
+
+
+
+
+
 <form method="post" enctype="multipart/form-data" class="form_zero">
     <div class="main">GŁÓWNA STRONA</div>
     <input type="text" name="main_title" placeholder="tytuł nagłówka"></input> 
@@ -28,6 +41,9 @@ require('admin.php');
         <input type="file" name="main_file"></input> 
         <input type="submit" name="submit"></input> 
 </form>
+
+
+
 
 
 <form method="post"  enctype="multipart/form-data" class="form_one">
