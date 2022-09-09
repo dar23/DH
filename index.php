@@ -59,7 +59,7 @@
   <form  method="post">
     <label for="search" class="label_search">
     <div class="common_element">  
-      <input type="text" name="searching"class="input_search" />
+      <input type="text" name="searching"class="input_search" autocomplete="off" />
       <i class=" fa fa-search loop " aria-hidden="true"></i></input>
     </div>
     </label>
