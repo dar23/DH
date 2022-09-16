@@ -35,7 +35,7 @@
 
 <!-- główna strona -->  
 
-<div class="main_info">
+<div class="part_1">
 
   <div class="item0">
 
@@ -68,10 +68,47 @@
   </div>
 
 
-  <div class="item1">
+  <div class='part_1'>
+  <div class='item1'>
+   
+   
+   <?php 
+
+
+
+
 
    
- 
+   
+$actual = "SELECT DISTINCT * FROM main_article ORDER BY id DESC";
+$result=$conn->query($actual);
+
+
+
+
+  while($row = mysqli_fetch_array($result)){
+
+
+    //tu będzie div dla postu: tytuł
+
+     echo      '<img src="actually/'.$row["picture"].'" class="actual_photo">';
+        
+       
+
+
+  };
+  
+
+   ?>
+
+</div>
+
+</div>
+
+
+
+
+
 
 
 
@@ -84,13 +121,108 @@
 
 
   </div>
+
+
+
   <div class="item2"></div>
   <div class="item3"></div>  
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="part_2">
+  
+  
+  <?php
+
+
+$sqli = "SELECT DISTINCT * FROM posts ORDER BY id DESC";
+$result=$conn->query($sqli);
+
+
+echo '<div class="place_to_posts">';  
+
+while($row = mysqli_fetch_array($result)){
+
+$rowtitle=$row['title'];
+$rowwith=$row['articles'];
+
+echo "<div class='main_post'>"       
+      .'<div class="photo">'
+        .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'
+          ."<div class='box'>"
+            ."<div class='title'>"
+              .'<p class="pe">'.mb_strimwidth("$rowtitle",0,35,"...").'</p>' 
+             ."</div>"    
+           .'</div>'
+         .'</a>'
+       .'</div>'        
+   ."</div>";
+   
+
+  }
+
+
+echo '</div>'; 
+
+?>
+
+
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -109,40 +241,6 @@
         </form>
      </div>    
 
-     
-<?php
-
-
-  $sqli = "SELECT DISTINCT * FROM posts ORDER BY id DESC";
-  $result=$conn->query($sqli);
-  
-
-echo '<div class="place_to_posts">';  
-
-while($row = mysqli_fetch_array($result)){
-  
-  $rowtitle=$row['title'];
-  $rowwith=$row['articles'];
-
-echo "<div class='main_post'>"       
-        .'<div class="photo">'
-          .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'
-            ."<div class='box'>"
-              ."<div class='title'>"
-                .'<p class="pe">'.mb_strimwidth("$rowtitle",0,35,"...").'</p>' 
-               ."</div>"    
-             .'</div>'
-           .'</a>'
-         .'</div>'        
-     ."</div>";
-     
-
-    }
-
-  
-echo '</div>'; 
-  
-?>
 
 <script src="js/icon.js"></script>
 
