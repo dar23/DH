@@ -15,7 +15,7 @@ function search_open(){
     let input_search=document.querySelector('.input_search');
     let loopa=document.querySelector('.loop');
 
-            if(input_search.style.width="35px"){
+            if(input_search.style.width="30px"){
 
                 input_search.style.color="white";
               
@@ -40,7 +40,7 @@ function search_close(){
     if(input_search.style.width="400"){
 
         input_search.style.color= "rgb(109,109,109)";
-        input_search.style.width="35px";
+        input_search.style.width="30px";
         loopa.style.display="block";
    
         
