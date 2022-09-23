@@ -18,11 +18,11 @@ display:flex;
    .input_search{
   transform: translateX(0);
   padding-left: 14px;
-  width:30px;
-  height:30px;
+  width:32px;
+  height:32px;
   border-radius:50px;
-  border: 0.5px solid rgb(255, 255, 255);
-  background-color:rgb(109, 109, 109);
+  border: 2px solid rgb(255, 255, 255);
+  background-color:rgb(161, 159, 154);
   transition: width 0.2s;
    }
 
@@ -30,8 +30,8 @@ i {
     position: relative;
     color: rgb(255, 255, 255);
     transition: .2s;
-    left: -40px;
-    top:-2.2px;
+    left: -40.9px;
+    top:-1px;
     z-index: 100;
    
 }
