@@ -69,39 +69,39 @@
 
 
   <div class='part_1'>
-  <div class='item1'>
+
+ 
    
    
    <?php 
 
 
 
+echo '<div class="container_three_posts">'; // na 3 posty css height 225px !!
+
+      
+      
+    $actual = "SELECT DISTINCT * FROM main_article ORDER BY id DESC";
+    $result=$conn->query($actual);
 
 
-   
-   
-$actual = "SELECT DISTINCT * FROM main_article ORDER BY id DESC";
-$result=$conn->query($actual);
+                  while($row = mysqli_fetch_array($result)){
 
+                    echo '<div class="post">';
+                    //tu będzie div dla postu: tytuł
 
+                    echo '<img src="actually/'.$row["picture"].'" class="actual_photo">';
+                        
+                      
+                    echo '</div>';
 
-
-  while($row = mysqli_fetch_array($result)){
-
-
-    //tu będzie div dla postu: tytuł
-
-     echo      '<img src="actually/'.$row["picture"].'" class="actual_photo">';
+                  };
         
-       
-
-
-  };
-  
+echo '</div>';
 
    ?>
 
-</div>
+
 
 </div>
 
@@ -132,34 +132,7 @@ $result=$conn->query($actual);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <!--   PART TWO SITE (DOWN PART)    --> 
 
 
 

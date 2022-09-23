@@ -15,11 +15,12 @@ body{
 
     display: grid;
     grid-template-columns: 500px auto ;
-    grid-template-rows:70px auto;
-    gap: 10px 10px;
+    grid-template-rows:60px auto;
+    gap: 20px 10px 10px;
     background-color: #ffffff;
-    
-
+    width:100%;
+    height: 100vh;
+  
 }
 
 
@@ -39,13 +40,40 @@ body{
 
   
 
-  .item1 {
+  .container_three_posts {
     background-color: rgb(255, 255, 255);
-    margin-left:50px;
-   
-    border: 19px solid black;
-   
+    margin-left: 100px;
+    margin-top: 1px;
+    width: 100%;
+    height: 700px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: grid;  
+    grid-template-rows:32% 32% 32.5% ; 
+    gap:10px;
   }
+
+.post{
+
+width: 100%;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   .item2 {
     background-color: rgb(255, 255, 255);
@@ -82,7 +110,7 @@ margin-top: 15px;
 img.darek{
 
 object-fit:fill;
-width:100%;
+width:40%;
 height:100%;
 border-radius: 100%;
 border:3px solid rgb(255, 255, 255);
