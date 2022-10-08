@@ -21,8 +21,6 @@ header('location:index.php');
 }
 
 
-
-
 if(isset($_POST['main_title'])&& !empty($_FILES['main_file']['name'])){
 
 
