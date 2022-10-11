@@ -14,7 +14,7 @@ body{
 .part_1{
 
     display: grid;
-    grid-template-columns: 500px auto ;
+    grid-template-columns: 600px auto ;
     grid-template-rows:60px auto;
     gap: 20px 10px 10px;
     background-color: #ffffff;
@@ -49,8 +49,8 @@ body{
     overflow-y: auto;
     overflow-x: hidden;
     display: grid;  
-    grid-template-rows:32% 32% 32.5% ; 
-    gap:10px;
+    grid-template-rows:30% 30% 30% ; 
+    gap:33px;
     border: 1px solid red;
   }
 

@@ -4,9 +4,10 @@
 
 
 <!DOCTYPE html>
-<html lang="pl">
+
 <head>
-    <meta charset="UTF-8">
+<html lang="pl">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style/hamburger.css">
     <link rel="stylesheet" href="style/index.css">
@@ -81,7 +82,7 @@ echo '<div class="container_three_posts">'; // na 3 posty css height 225px !!
 
       
       
-    $actual = "SELECT DISTINCT * FROM main_article ORDER BY id DESC";
+    $actual = "SELECT DISTINCT * FROM main_article ORDER BY id DESC LIMIT 3";
     $result=$conn->query($actual);
 
 
@@ -92,6 +93,7 @@ echo '<div class="container_three_posts">'; // na 3 posty css height 225px !!
 
                     echo '<img src="actually/'.$row["picture"].'" class="actual_photo">';
                         
+                    echo '<div class="main_title">'.$row["article"].'</div>';
                       
                     echo '</div>';
 
