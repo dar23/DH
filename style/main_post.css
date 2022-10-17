@@ -3,7 +3,7 @@
   display: grid;
   align-content: center;
   grid-template-columns: auto auto auto auto ;
-  grid-template-rows:300px 300px  ;
+  grid-template-rows:200px 200px  ;
   grid-gap: 20px 20px;
   padding: 120px;
   padding-top:50px; 
@@ -15,43 +15,25 @@
 
 .main_post{
 
-  text-align: center;
-  transform: scale(1);
-  font-size: 30px;
+
  
 
   }
 
 
 
-.photo{
-height:100%;
 
 
 
-
-}
-
-.box{
-   width: 101%;
-   height: 0px;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-end;
-  
-}
 
 
 
 
 .title{
 width: 100%;
-height: auto;
+height: 40px;
 backdrop-filter: blur(1px);
-background-color: rgba(74, 74, 74, 0.5); 
+background-color: rgba(11, 189, 233, 0.5); 
 
 
 font-size:20px;
@@ -87,10 +69,9 @@ img{
   height: 100%;
   border-radius: 3px;
   box-shadow:2px 2px 3px 0px rgb(86, 86, 86);
-  object-fit:fill;
-
+  object-fit:cover;
+  object-position: 100% 15%;
   transform: scale(1);
- 
   transition:  transform 1s;
   
   }
