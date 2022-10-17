@@ -93,7 +93,7 @@ echo '<div class="container_three_posts">'; // na 3 posty css height 225px !!
 
                     echo '<img src="actually/'.$row["picture"].'" class="actual_photo">';
                         
-                    echo '<div class="main_title">'.$row["article"].'</div>';
+                    echo '<div class="main_title">'.$row["title"].'</div>';
                       
                     echo '</div>';
 
