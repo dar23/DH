@@ -1,8 +1,8 @@
 
  .search{
     width: 40px;
-   margin-top:12px;
-   margin-left:10px;
+   margin-top:4px;
+   margin-left:1px;
    }
   
 
@@ -18,11 +18,11 @@ display:flex;
    .input_search{
   transform: translateX(0);
   padding-left: 14px;
-  width:32px;
-  height:32px;
+  width:35px;
+  height:35px;
   border-radius:50px;
   border: 2px solid rgb(255, 255, 255);
-  background-color:rgb(161, 159, 154);
+  background-color:rgb(130, 129, 129);
   transition: width 0.2s;
    }
 
@@ -30,8 +30,8 @@ i {
     position: relative;
     color: rgb(255, 255, 255);
     transition: .2s;
-    left: -40.8px;
-    top:-1px;
+    left: -42.6px;
+    top:0;
     z-index: 100;
    
 }
