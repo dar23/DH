@@ -142,7 +142,7 @@ echo '</div>';
 
 <div class="part_2">
   
-  
+      
   <?php
 
 
