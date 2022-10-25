@@ -26,12 +26,12 @@ body{
 
   .item0 {
     background-color: rgb(255, 255, 255);
-    grid-column:1/4;
+    grid-column:4/4;
     
     display: grid;
     grid-template-columns:50% auto ;
    
-    gap: 0 0;
+   
    
    
   }
