@@ -50,7 +50,7 @@
   </div>
 -->
  
-<div class="search">
+<div class="search_container">
   <form  method="post">
     <label for="search" class="label_search">
     <div class="common_element">  
