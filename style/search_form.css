@@ -26,7 +26,7 @@
  .search_container{
  
    display:flex;
-   margin-top:9px;
+   margin-top:8px;
    position:absolute;
    right:100px;
    }
@@ -48,7 +48,7 @@ display:flex;
   transform: translateX(0);
   padding-left: 14px;
   width:150px;
-  height:34px;
+  height:35px;
   border-radius:50px;
   border: 2px solid rgb(255, 255, 255);
   background-color:rgb(130, 129, 129);
@@ -59,7 +59,7 @@ i {
     position: relative;
     color: rgb(255, 255, 255);
     transition: .2s;
-left:210px;
+    left:210px;
     top:0px;
     z-index: 100;
    
