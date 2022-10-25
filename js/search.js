@@ -1,4 +1,4 @@
-let container_search=document.querySelector('.search');
+let container_search=document.querySelector('.input_search');
 let main_info=document.querySelector('.main_info');
 
 

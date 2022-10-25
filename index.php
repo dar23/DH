@@ -70,7 +70,7 @@
   </div>
 
 
-  <div class='part_2'>
+  <div class='part_1'>
 
  
    
