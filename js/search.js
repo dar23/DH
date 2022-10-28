@@ -1,11 +1,12 @@
 let container_search=document.querySelector('.input_search');
+let body=document.querySelector('.part_1'); // 
 let main_info=document.querySelector('.main_info');
 
 
 
 
 container_search.addEventListener('click',search_open,false);
-container_search.addEventListener('mouseleave',search_close,false);
+body.addEventListener('mouseover',search_close,false);
 
 
 
@@ -15,16 +16,14 @@ function search_open(){
     let input_search=document.querySelector('.input_search');
     let loopa=document.querySelector('.loop');
 
-            if(input_search.style.width="150px"){
+            if(input_search.style.width="140px"){
 
                 input_search.style.color="white";
               
-                input_search.style.width="400px";
-                loopa.style.display="none";
+                input_search.style.width="300px";
+                
+               loopa.style.visibility="hidden";
              
-        
-
-
             }
 
 
@@ -37,16 +36,20 @@ function search_close(){
     let input_search=document.querySelector('.input_search');
     let loopa=document.querySelector('.loop');
 
-    if(input_search.style.width="400"){
+    if(input_search.style.width="300px"){
 
         input_search.style.color= "rgb(109,109,109)";
-        input_search.style.width="150px";
-        loopa.style.display="block";
-   
-        
+        input_search.style.width="140px";
+           
+
+
+
     }
 
-
+ 
+    if(input_search.style.width="100px"){
+        loopa.style.visibility="visible";
+        }
 
 
 }

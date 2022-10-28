@@ -14,18 +14,17 @@
 
 
  .search_container{
- 
+width: 300px;
    display:flex;
-   margin-top:8.5px;
+   margin-top:16px;
    position:absolute;
-  right:90px;
+  right:120px;
    }
   
 
 .common_element{
-
+  width: 300px;
 display:flex;
-
 
 }
 
@@ -33,26 +32,25 @@ display:flex;
 
 
    .input_search{
-  display: block;
   margin: 0 0 0 auto;
-  transform: translateX(0);
+ 
   padding-left: 14px;
-  width:150px;
+  width:140px;
   height:35px;
   border-radius:50px;
   border: 2px solid rgb(255, 255, 255);
   background-color:rgb(141, 139, 139);
-  transition: width 0.2s;
+  transition: width 0.5s;
    }
 
 i {
     position: relative;
     color: rgb(255, 255, 255);
     transition: .2s;
-    left:210px;
+    left:255px;
     top:0px;
     z-index: 100;
-   
+   visibility: visible;
 }
 
     input[type=text]:focus  {
