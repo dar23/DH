@@ -95,6 +95,22 @@ font-size:11px;
 
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@keyframes lefting_three {
+
+  from{transform: translateX(0%);}
+  to{transform: translateX(19%);}
+  
+}
+
+@keyframes lefting1_three {
+
+  from{transform: translateX(19%);}
+  to{transform: translateX(0%);}
+  
+}
+
+
+
 
 
 
@@ -111,3 +127,4 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
   to{transform: translateX(0%);}
   
 }
+

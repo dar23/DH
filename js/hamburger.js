@@ -17,20 +17,21 @@ hamburger.addEventListener('click', ()=>{
         const menu_open= menu.classList.toggle('class_open');  // funkcja może być również zmienną...
        
         const place_to_post=document.querySelector('.place_to_posts'); 
+        const three_post=document.querySelector('.container_three_posts');
       //  const place_to_main=document.querySelector('.main_info'); 
 
 if(menu_open){    // gdy kliknę, zostało dokonane a więc warunek spełniony, wartość spełnionego warunku true i rozumiem że tylko raz się dokona 
 
 
         place_to_post.style.animation="lefting 1s forwards"  // po kliknięciu w ikonę hamburgera warunek się spełnia
-
+        three_post.style.animation="lefting_three 1s forwards" 
      //   place_to_main.style.animation="lefting 1s forwards" 
 
 } else{
 
       
         place_to_post.style.animation="lefting1 1s forwards"  
-
+        three_post.style.animation="lefting1_three 1s forwards" 
         //place_to_main.style.animation="lefting1 1s forwards" 
 
 }
