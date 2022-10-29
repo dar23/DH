@@ -35,11 +35,11 @@ body{
 
 .post{
 
-width:100%;
+width:50%;
 display: grid;  
-grid-template-columns:1fr 1fr; 
-grid-template-rows:100% ; 
-gap:1px;
+grid-template-columns:1fr ; 
+grid-template-rows:80% ; 
+gap:10px;
 
 
 }
@@ -62,7 +62,9 @@ font-family: Tahoma;
 text-align: center;
 text-transform: uppercase;
 font-family:Arial, Helvetica, sans-serif;
-font-size: 14px;
+font-size: 14px; color:rgb(42, 42, 42);
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
 }
 
 
