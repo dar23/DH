@@ -45,58 +45,43 @@
 
 <div class="part_1">
 
-  <div class="item0">
-      <div class="search_container">
-        <form  method="post">
-          <label for="search" class="label_search">
-            <div class="common_element">  
-              <i class=" fa fa-search loop " aria-hidden="true"></i></input>
-              <input type="text" name="searching"class="input_search" autocomplete="off" />
-            </div>
-          </label>
-        </form>
-  </div>
+          <div class="item0">
+              <div class="search_container">
+                <form  method="post">
+                  <label for="search" class="label_search">
+                    <div class="common_element">  
+                      <i class=" fa fa-search loop " aria-hidden="true"></i></input>
+                      <input type="text" name="searching"class="input_search" autocomplete="off" />
+                    </div>
+                  </label>
+                </form>
+          </div>
 
-
-
-
-
-
-
-
- 
-
- 
-   
    
    <?php 
 
+            echo '<div class="container_three_posts">'; // na 3 posty css height 225px !!
+
+                $actual = "SELECT DISTINCT * FROM main_article ORDER BY id DESC LIMIT 3";
+                $result=$conn->query($actual);
 
 
-echo '<div class="container_three_posts">'; // na 3 posty css height 225px !!
+                              while($row = mysqli_fetch_array($result)){
 
-      
-      
-    $actual = "SELECT DISTINCT * FROM main_article ORDER BY id DESC LIMIT 3";
-    $result=$conn->query($actual);
+                                echo '<div class="post">';
+                                //tu będzie div dla postu: tytuł
 
+                                echo '<img src="actually/'.$row["picture"].'" class="actual_photo">';
+                                    
+                                echo '<div class="main_title">'.$row["title"].'</div>';
+                                  
+                                echo '</div>';
 
-                  while($row = mysqli_fetch_array($result)){
+                              };
+                    
+            echo '</div>';
 
-                    echo '<div class="post">';
-                    //tu będzie div dla postu: tytuł
-
-                    echo '<img src="actually/'.$row["picture"].'" class="actual_photo">';
-                        
-                    echo '<div class="main_title">'.$row["title"].'</div>';
-                      
-                    echo '</div>';
-
-                  };
-        
-echo '</div>';
-
-   ?>
+              ?>
 
 
 
@@ -104,22 +89,13 @@ echo '</div>';
                 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 
 
+
+
+
+  
 
   <div class="item2"></div>
   <div class="item3"></div>  
