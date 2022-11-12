@@ -133,7 +133,7 @@ echo "<div class='main_post'>"
         .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'   .'</a>' 
         .'</div>' 
             ."<div class='title'>"
-              .'<p class="pe">'.mb_strimwidth("$rowtitle",0,35,"...").'</p>' 
+              .'<p class="pe">'.mb_strimwidth("$rowtitle",0,15,"...").'</p>' 
   
            .'</div>'
             
