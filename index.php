@@ -130,14 +130,13 @@ $rowwith=$row['articles'];
 
 echo "<div class='main_post'>"       
       .'<div class="photo">'
-        .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'
-          ."<div class='box'>"
+        .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'   .'</a>' 
+        .'</div>' 
             ."<div class='title'>"
               .'<p class="pe">'.mb_strimwidth("$rowtitle",0,35,"...").'</p>' 
-             ."</div>"    
+  
            .'</div>'
-         .'</a>'
-       .'</div>'        
+            
    ."</div>";
    
 
