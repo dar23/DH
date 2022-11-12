@@ -43,8 +43,9 @@ left:0;
     
 @keyframes lefting {
 
-    from{left:0}
-    to{left: 4%;}
+   
+  from{transform: translateX(0%);}
+  to{transform: translateX(19%);}
     
 }
 
