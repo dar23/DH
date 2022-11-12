@@ -45,17 +45,18 @@
 
 <div class="part_1">
 
-          <div class="item0">
-              <div class="search_container">
+    <div class="item0">
+        
+            <div class="search_container">
                 <form  method="post">
-                  <label for="search" class="label_search">
-                    <div class="common_element">  
-                      <i class=" fa fa-search loop " aria-hidden="true"></i></input>
-                      <input type="text" name="searching"class="input_search" autocomplete="off" />
-                    </div>
-                  </label>
+                    <label for="search" class="label_search">
+                        <div class="common_element">  
+                          <i class=" fa fa-search loop " aria-hidden="true"></i></input>
+                          <input type="text" name="searching"class="input_search" autocomplete="off" />
+                        </div>
+                    </label>
                 </form>
-          </div>
+             </div>
 
    
    <?php 
@@ -89,7 +90,7 @@
                 </div>
 
 
-  </div>
+
 
 
 
