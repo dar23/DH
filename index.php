@@ -45,9 +45,9 @@
 
 <div class="part_1">
 
-    <div class="item0">
+  
         
-            <div class="search_container">
+            <div class="search_container">   <!-- wyszukiwarka plików -->
                 <form  method="post">
                     <label for="search" class="label_search">
                         <div class="common_element">  
@@ -61,7 +61,7 @@
    
    <?php 
 
-            echo '<div class="container_three_posts">'; // na 3 posty css height 225px !!
+            echo '<div class="container_three_posts">';
 
                 $actual = "SELECT DISTINCT * FROM main_article ORDER BY id DESC LIMIT 3";
                 $result=$conn->query($actual);
@@ -82,12 +82,13 @@
                     
             echo '</div>';
 
+            
               ?>
 
 
 
 </div>
-                </div>
+             
 
 
 
@@ -96,10 +97,19 @@
 
 
 
-  
 
-  <div class="item2"></div>
-  <div class="item3"></div>  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

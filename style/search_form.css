@@ -2,22 +2,13 @@
 
 
 
-  .item0 {
-    display:flex;
-    background-color: rgb(255, 255, 255);
-   
-  
-
-  }
-
-
-
 
  .search_container{
   width: 300px;
    display:flex;
+   position:fixed;
    margin-top:16px;
-   position:absolute;
+  
    right:5%;
 
    }
@@ -34,7 +25,7 @@ display:flex;
 
    .input_search{
   margin: 0 0 0 auto;
- 
+  position:sticky;
   padding-left: 14px;
   width:300px;
   height:31px;
