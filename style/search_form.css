@@ -14,7 +14,7 @@
 
 
  .search_container{
-width: 300px;
+  width: 300px;
    display:flex;
    margin-top:16px;
    position:absolute;
@@ -40,7 +40,7 @@ display:flex;
   height:31px;
   border-radius:50px;
   border: 2px solid rgb(255, 255, 255);
-  background-color:rgb(141, 139, 139);
+  background-color:rgba(141, 139, 139, 0.286);
   transition: width 0.5s;
    }
 
