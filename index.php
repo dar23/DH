@@ -83,6 +83,22 @@
             echo '</div>';
 
             
+            echo '<div class="main_article_post">';                  
+
+              $main_part_1="SELECT DISTINCT * FROM actual_post ORDER BY id DESC LIMIT 1";
+                $result=$conn->query($main_part_1);
+
+
+
+
+
+
+
+
+
+
+
+            
               ?>
 
 
