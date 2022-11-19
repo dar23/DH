@@ -110,13 +110,13 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 @keyframes lefting_three {
 
   from{transform: translateX(0%);}
-  to{transform: translateX(32%);}
+  to{transform: translateX(29%);}
   
 }
 
 @keyframes lefting1_three {
 
-  from{transform: translateX(32%);}
+  from{transform: translateX(29%);}
   to{transform: translateX(0%);}
   
 }
@@ -129,13 +129,13 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 @keyframes lefting {
 
   from{transform: translateX(0%);}
-  to{transform: translateX(8%);}
+  to{transform: translateX(9%);}
   
 }
 
 @keyframes lefting1 {
 
-  from{transform: translateX(8%);}
+  from{transform: translateX(9%);}
   to{transform: translateX(0%);}
   
 }
