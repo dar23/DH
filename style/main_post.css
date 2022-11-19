@@ -2,9 +2,9 @@
  
   display: grid;
   grid-template-columns: 1fr ;
-  grid-template-rows: 600px;
+  grid-template-rows: 597px;
 gap: 10px;
-  margin-top: 90px;margin-left:25px;
+  margin-top: 92px;margin-left:5px;
 
 
   
@@ -129,13 +129,13 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 @keyframes lefting {
 
   from{transform: translateX(0%);}
-  to{transform: translateX(4%);}
+  to{transform: translateX(8%);}
   
 }
 
 @keyframes lefting1 {
 
-  from{transform: translateX(4%);}
+  from{transform: translateX(8%);}
   to{transform: translateX(0%);}
   
 }

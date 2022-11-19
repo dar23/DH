@@ -23,14 +23,14 @@ hamburger.addEventListener('click', ()=>{
 if(menu_open){    // gdy kliknę, zostało dokonane a więc warunek spełniony, wartość spełnionego warunku true i rozumiem że tylko raz się dokona 
 
 
-        place_to_post.style.animation="lefting 1s forwards"  // po kliknięciu w ikonę hamburgera warunek się spełnia
+        place_to_post.style.animation="lefting 0.9s forwards"  // po kliknięciu w ikonę hamburgera warunek się spełnia
         three_post.style.animation="lefting_three 1s forwards" 
      //   place_to_main.style.animation="lefting 1s forwards" 
 
 } else{
 
       
-        place_to_post.style.animation="lefting1 1s forwards"  
+        place_to_post.style.animation="lefting1 0.9s forwards"  
         three_post.style.animation="lefting1_three 1s forwards" 
         //place_to_main.style.animation="lefting1 1s forwards" 
 
