@@ -83,19 +83,33 @@
             echo '</div>';
 
             
-            echo '<div class="main_article_post">';                  
-
-              $main_part_1="SELECT DISTINCT * FROM actual_post ORDER BY id DESC LIMIT 1";
-                $result=$conn->query($main_part_1);
-
-
-
-
-
-
-
-
-
+            $sqli = "SELECT DISTINCT * FROM posts ORDER BY id DESC";
+            $result=$conn->query($sqli);
+            
+            
+            echo '<div class="place_to_posts">';  
+            
+            while($row = mysqli_fetch_array($result)){
+            
+            $rowtitle=$row['title'];
+            $rowwith=$row['articles'];
+            
+            echo "<div class='main_post'>"       
+                  .'<div class="photo">'
+                    .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'   .'</a>' 
+                    .'</div>' 
+                        ."<div class='title'>"
+                          .'<p class="pe">'.mb_strimwidth("$rowtitle",0,15,"...").'</p>' 
+              
+                       .'</div>'
+                        
+               ."</div>";
+               
+            
+              }
+            
+            
+            echo '</div>'; 
 
 
             
@@ -144,33 +158,7 @@
   <?php
 
 
-$sqli = "SELECT DISTINCT * FROM posts ORDER BY id DESC";
-$result=$conn->query($sqli);
 
-
-echo '<div class="place_to_posts">';  
-
-while($row = mysqli_fetch_array($result)){
-
-$rowtitle=$row['title'];
-$rowwith=$row['articles'];
-
-echo "<div class='main_post'>"       
-      .'<div class="photo">'
-        .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'   .'</a>' 
-        .'</div>' 
-            ."<div class='title'>"
-              .'<p class="pe">'.mb_strimwidth("$rowtitle",0,15,"...").'</p>' 
-  
-           .'</div>'
-            
-   ."</div>";
-   
-
-  }
-
-
-echo '</div>'; 
 
 ?>
 
