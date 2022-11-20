@@ -95,13 +95,14 @@
             $rowwith=$row['articles'];
             
             echo "<div class='main_post'>"       
-                  .'<div class="photo">'
-                    .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'   .'</a>' 
-                    .'</div>' 
-                        ."<div class='title'>"
-                          .'<p class="pe">'.mb_strimwidth("$rowtitle",0,15,"...").'</p>' 
-              
-                       .'</div>'
+                     
+
+                          .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'.'</a>'                       
+                          ."<div class='title'>"
+                          .'<p class="pe">'.mb_strimwidth("$rowtitle",0,25,"...").'</p>' 
+                          .'</div>' 
+                          
+                   
                         
                ."</div>";
                
@@ -152,7 +153,8 @@
 
 
 
-<div class="part_2">
+
+            <!--<div class="part_2">--> 
   
       
   <?php
