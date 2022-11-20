@@ -99,7 +99,7 @@
 
                           .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'.'</a>'                       
                           ."<div class='title'>"
-                          .'<p class="pe">'.mb_strimwidth("$rowtitle",0,25,"...").'</p>' 
+                          .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,25,"...").'</p>' 
                           .'</div>' 
                           
                    
