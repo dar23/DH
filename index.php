@@ -115,7 +115,7 @@
 
             echo "<div class='top_music_hit'>";
 
-              echo "</div>";
+            echo "</div>";
 
 
 

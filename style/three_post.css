@@ -31,7 +31,8 @@ display: grid;
 grid-template-columns:1fr ; 
 grid-template-rows:80% ; 
 gap:5px;
-border:1px so
+border:1px;
+
 
 }
 
@@ -45,7 +46,7 @@ border-bottom-left-radius: 8px;
 border-bottom-right-radius: 8px;
 border-top-left-radius:8px ;
 border-top-right-radius:8px;
-box-shadow:1px 0px 0px  rgba(0, 0, 0, .5);
+box-shadow:2px 2px 3px 5px rgba(0, 0, 0, .5);
 }
 
 
