@@ -72,7 +72,7 @@
                                 echo '<div class="post">';
                                 //tu będzie div dla postu: tytuł
 
-                                echo '<img src="actually/'.$row["picture"].'" class="actual_photo">';
+                                echo '<a href="three_news.php?id='.$row['id'].'">'.'<img src="actually/'.$row["picture"].'" class="actual_photo">'.'</a>';
                                     
                                 echo '<div class="main_title">'.$row["title"].'</div>';
                                   
