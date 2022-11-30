@@ -1,8 +1,8 @@
 .place_to_posts{
  
   display: grid;
-  grid-template-columns: 1fr ;
-  grid-template-rows: 599px;
+  grid-template-columns: 1fr 1fr  ;
+  grid-template-rows: 600px;
   gap: 10px;
   margin-top: 90px;
 
@@ -13,19 +13,19 @@
 .main_post{
 
 width: auto;
-height:599px;
+height:auto;
 
 }
 
 
 .title{
 width: 100%;
-height:100px;position:relative;
-bottom:100px;
+height:50px;position:relative;
+bottom:50px;
 backdrop-filter: blur(0.6px);
 background: rgba(192, 192, 192, 0.164);
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-font-size:45px;
+font-size:25px;
 font-family: 'Bebas Neue', cursive;
 font-family: 'Black Ops One', cursive;
 font-family: 'Staatliches', cursive;
@@ -38,8 +38,8 @@ border-bottom-left-radius: 10px;
 
 .title_text{
 
-  text-align: left; padding-left: 40px;
-  padding-top: 20px;letter-spacing: 6px;
+  text-align: left; padding-left:30px;
+  padding-top: 10px;letter-spacing: 6px;
  margin:0;
   
   }
@@ -58,9 +58,9 @@ img{
   border-radius: 3px;
   box-shadow:2px 2px 3px  rgba(0, 0, 0, .5);
   object-fit:cover;
-  object-position: 100% 15%;
+  
   transform: scale(1);
-  transition:  transform 1s;
+  transition:  transform 0.2s;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius:10px ;
@@ -69,10 +69,11 @@ img{
   }
   
 .main_post:hover{
-  transform: scale(1);
+  transform: scale(0.1, 0.1);
   opacity:1;
   animation:1s xoxo forwards;
   }
+  
   
 @keyframes xoxo{
 from{transform: scale(1);}
