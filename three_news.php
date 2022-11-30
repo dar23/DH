@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<link rel="stylesheet" href="style/news.css">
+<link rel="stylesheet" href="style/three_news.css">
 </head>
 <body>
 <?php 
@@ -15,7 +15,7 @@ $sql_news="SELECT * FROM main_article WHERE id='$id_post'";
 $result=$conn->query($sql_news);
 
       
-echo '<div class="place_to_posts_news">';  
+echo '<div class="place_to_three_news">';  
 
     while($row = mysqli_fetch_array($result)){
       echo "<div class='main_post_news'>"
