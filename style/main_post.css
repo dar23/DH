@@ -24,12 +24,12 @@ height:50px;
 position:relative;
 bottom:50px;
 backdrop-filter: blur(0.6px);
-background: rgba(192, 192, 192, 0.388);
+background: rgba(157, 157, 157, 0.388);
 
 font-size:25px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-color:rgb(70, 70, 70);
+color:rgb(255, 255, 255);
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 }
