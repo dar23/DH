@@ -111,30 +111,41 @@
             
               }
             
+
+
+              $sqli_vid = "SELECT DISTINCT * FROM videos ORDER BY id DESC";
+              $result=$conn->query($sqli_vid);
+              
+  
+  
+  
+              echo "<div class='player'>";
+  
+  
+             echo '<video controls>
+                        <source src="mov_bbb.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                   </video>';
+  
+  
+  
+              echo "</div>";
+  
+
+
+
+
+
+
+
+
+
             
             echo '</div>'; 
 
 
 
  
-            $sqli_vid = "SELECT DISTINCT * FROM videos ORDER BY id DESC";
-            $result=$conn->query($sqli_vid);
-            
-
-
-
-            echo "<div class='player'>";
-
-
-           echo '<video width="400" controls>
-                      <source src="mov_bbb.mp4" type="video/mp4">
-                      <source src="mov_bbb.ogg" type="video/ogg">
-                 </video>';
-
-
-
-            echo "</div>";
-
 
 
 
