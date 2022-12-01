@@ -1,4 +1,4 @@
-<?php  require("connection.php"); require('logowanie.php');require('menu.php');require('hamburger.php');
+<?php  require("connection.php"); require('logowanie.php');require('menu.php');require('hamburger.php'); require('player.php');
     
 ?>
 
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="style/main_post.css">
     <link rel="stylesheet" href="style/news.css">  
      <link rel="stylesheet" href="style/three_news.css">
+     <link rel="stylesheet" href="style/video_player.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -114,7 +115,23 @@
             echo '</div>'; 
 
 
-            echo "<div class='top_music_hit'>";
+
+ 
+            $sqli_vid = "SELECT DISTINCT * FROM videos ORDER BY id DESC";
+            $result=$conn->query($sqli_vid);
+            
+
+
+
+            echo "<div class='player'>";
+
+
+           echo '<video width="400" controls>
+                      <source src="mov_bbb.mp4" type="video/mp4">
+                      <source src="mov_bbb.ogg" type="video/ogg">
+                 </video>';
+
+
 
             echo "</div>";
 
