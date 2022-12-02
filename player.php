@@ -15,9 +15,9 @@ if(isset($_POST['submit']) && isset($_FILES['my_video'])){
 
         if($error===0){
 
-                $video_ex=pathinfo($video_name,PATHINFO_EXTENSION);
+                $video_ex=pathinfo($video_name,PATHINFO_EXTENSION); // zwraca info o ścieżce do pliku
 
-                $video_ex_lc=strtolower(($video_ex));
+                $video_ex_lc=strtolower(($video_ex)); // wszystkie duże litery zostają pomniejszone
 
 
                 $allowed_exs = array("mp4",'webm','avi','flv');
@@ -30,7 +30,7 @@ if(isset($_POST['submit']) && isset($_FILES['my_video'])){
 
                     }else{
                         
-                        
+
                         $em = "Not uploaded file this type";
                         header("location:index.php?error=$em");
 
