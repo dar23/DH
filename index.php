@@ -116,59 +116,48 @@
               $sqli_vid = "SELECT DISTINCT * FROM videos ORDER BY id DESC";
               $result=$conn->query($sqli_vid);
               
+  ?>
   
   
+        <div class='player'>
   
-  echo "<div class='player'>";
   
-  
-             echo '<video controls>
+                  <video controls>
                         <source src="mov_bbb.mp4" type="video/mp4">
                         <source src="mov_bbb.ogg" type="video/ogg">
-                   </video>';
+                   </video>
   
      
-            echo '<div class="list_media">';
+                  <div class="list_media">
 
 
 
-              echo '</div>';
+                  </div>
 
 
+            <div class="upload">
 
+            
 
-
-               
-            echo '<div class="upload">';
-
-                      echo '<form   method="post" enctype="multipart/form-data" >
+                  <form  method="post" enctype="multipart/form-data" >
 
                       <input type="file" name="my_video">
                       <input type="submit" name="submit" value="upload">
-                      </form>';
+                      </form>
 
-            echo "</div>";  
+           </div> 
 
             
                       
               
  
- echo "</div>";
+ </div>
 
 
 
 
             
-echo '</div>'; 
-
-
-
- 
-
-
-
-            
-              ?>
+</div>
 
 
 
