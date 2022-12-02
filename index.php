@@ -132,7 +132,6 @@
 
 
 
-
               echo '</div>';
 
 
@@ -142,7 +141,7 @@
                
             echo '<div class="upload">';
 
-                      echo '<form action="upload.php" method="post" enctype="multipart/form-data" >
+                      echo '<form   method="post" enctype="multipart/form-data" >
 
                       <input type="file" name="my_video">
                       <input type="submit" name="submit" value="upload">
