@@ -136,6 +136,17 @@
 
 
             <div class="upload">
+                  
+     <?php
+                    
+              if(isset($_GET['error'])){ ?>
+
+                      <p><?=$_GET['error']?></p>
+    <?php } ?>
+
+                 
+
+
 
             
 
