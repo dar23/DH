@@ -119,7 +119,7 @@
   
   
   
-              echo "<div class='player'>";
+  echo "<div class='player'>";
   
   
              echo '<video controls>
@@ -127,21 +127,40 @@
                         <source src="mov_bbb.ogg" type="video/ogg">
                    </video>';
   
-  
-  
-              echo "</div>";
-  
+     
+            echo '<div class="list_media">';
+
+
+
+
+              echo '</div>';
 
 
 
 
 
+               
+            echo '<div class="upload">';
+
+                      echo '<form action="upload.php" method="post" enctype="multipart/form-data" >
+
+                      <input type="file" name="my_video">
+                      <input type="submit" name="submit" value="upload">
+                      </form>';
+
+            echo "</div>";  
+
+            
+                      
+              
+ 
+ echo "</div>";
 
 
 
 
             
-            echo '</div>'; 
+echo '</div>'; 
 
 
 

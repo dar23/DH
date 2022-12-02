@@ -19,25 +19,6 @@ height:auto;
 
 
 
-.player{
-width: 100%;
-margin-left:25px;
-
-}
-
-video{
-
-  border-radius: 10px; 
-
-  width:100%;
-  display: grid;  
-  grid-template-columns:1fr ; 
-  grid-template-rows:80% ; 
-  gap:5px;
-  border:1px;
-}
-
-
 
 .title{
 width: 100%;
@@ -161,3 +142,54 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
   
 }
 
+
+
+
+
+.player{
+  width: 100%;
+  margin-left:25px;
+  border:solid black 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-end;
+
+  }
+  
+  video{
+  
+    border-radius: 10px; 
+    width:100%;
+    display: grid;  
+    grid-template-columns:1fr ; 
+    grid-template-rows:80% ; 
+    gap:5px;
+    border:1px;
+  }
+
+.list_media{
+ 
+  width: 100%;
+  height: 340px;
+  border:1px solid red;
+
+
+
+}
+
+
+
+
+
+
+
+
+  
+  .upload{
+
+ 
+
+  }
