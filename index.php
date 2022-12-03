@@ -144,9 +144,9 @@
                               while($row = mysqli_fetch_array($result)){
 
                                   echo '<div class="video_container">';
-                                  echo '<video controls>'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
+                                  echo '<div class="number_video">'.$row['id'].'</div>';
+                                  echo '<video controls class="video_list">'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
                                   echo '</div>';
-
                               };
                       ?>
                                
