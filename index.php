@@ -119,38 +119,55 @@
   ?>
   
   
-        <div class='player'>
+<div class='player'>
+
+
+
+
+
   
-  
-                  <video controls>
-                        <source src="mov_bbb.mp4" type="video/mp4">
-                        <source src="mov_bbb.ogg" type="video/ogg">
-                   </video>
+                           <video controls>
+                                <source src="mov_bbb.mp4" type="video/mp4">
+                                <source src="mov_bbb.ogg" type="video/ogg">
+                           </video>
+
+             
   
      
-                  <div class="list_media">
+        <div class="list_media">
+
+            <?php              
+                $videos = "SELECT DISTINCT * FROM entries_videos ORDER BY id DESC LIMIT 5";
+                $result=$conn->query($videos);
 
 
+                              while($row = mysqli_fetch_array($result)){
 
-                  </div>
+                           
+                                  echo '<video controls>'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
+                               
 
-
+                              };
+                      ?>
+                               
+        </div>                
+            
             <div class="upload">
                   
-     <?php
-                    
-              if(isset($_GET['error'])){ ?>
+                      <?php
+                                      
+                                if(isset($_GET['error'])){ ?>
 
-                      <p><?=$_GET['error']?></p>
-    <?php } ?>
+                                        <p><?=$_GET['error']?></p>
+                      <?php } ?>
 
-                 
+                                  
 
 
 
-            
+                              
 
-                  <form  method="post" enctype="multipart/form-data" >
+                  <form  method="post" enctype="multipart/form-data"  >
 
                       <input type="file" name="my_video">
                       <input type="submit" name="submit" value="upload">
@@ -161,18 +178,15 @@
             
                       
               
- 
- </div>
+
+
+
+                             
 
 
 
 
-            
-</div>
 
-
-
-</div>
              
 
 

@@ -174,11 +174,38 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
  
   width: 100%;
   height: 338px;
+ overflow-y: auto;
+
+
+
+}
+
+
+
+.video_container{
+  
+  width: 100%;
+  height: 40px;
+
 
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .upload{
@@ -204,3 +231,5 @@ input[type="submit"]{
   width:50%;
   height: 39px;z-index: 2;
   } 
+
+
