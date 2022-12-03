@@ -137,15 +137,15 @@
         <div class="list_media">
 
             <?php              
-                $videos = "SELECT DISTINCT * FROM entries_videos ORDER BY id DESC LIMIT 5";
+                $videos = "SELECT DISTINCT * FROM entries_videos ORDER BY id DESC LIMIT 10";
                 $result=$conn->query($videos);
 
 
                               while($row = mysqli_fetch_array($result)){
 
-                           
+                                  echo '<div class="video_container">';
                                   echo '<video controls>'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
-                               
+                                  echo '</div>';
 
                               };
                       ?>
