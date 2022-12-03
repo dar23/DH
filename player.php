@@ -31,6 +31,12 @@ if(isset($_POST['submit']) && isset($_FILES['my_video'])){
                                 move_uploaded_file($tmp_name,$video_upload_path);
 
                             
+                                    $sql_videos="INSERT INTO entries_videos(video_url) VALUES('$new_video_name')";
+
+                            $mysqli_query= $conn->query($sql_videos);
+
+
+
 
 
                     }else{
