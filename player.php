@@ -20,20 +20,20 @@ if(isset($_POST['submit']) && isset($_FILES['my_video'])){
                 $video_ex_lc=strtolower(($video_ex)); // wszystkie duże litery zostają pomniejszone
 
 
-                $allowed_exs = array("mp4",'webm','avi','flv');
+                $allowed_exs = array("mp4",'webm','avi','flv'); // jakie rozszerzenia video może mieć 
 
-                    if(in_array($video_ex_lc,$allowed_exs)){
+                    if(in_array($video_ex_lc,$allowed_exs)){ // jeżeli w tablicy  jest plik ze zmniejszonymi znakami oraz z rozszerzeniami
 
-                        $new_video_name=uniqid("video-",true).'.'.$video_ex_lc;
+                        $new_video_name=uniqid("video-",true).'.'.$video_ex_lc;  // dodanie ms do nazwy plika
 
-                          $video_upload_path="actually/".$new_video_name;
+                          $video_upload_path="actually/".$new_video_name;  // ścieżka pliku, gdzie ma być zapisany
 
-                                move_uploaded_file($tmp_name,$video_upload_path);
+                                move_uploaded_file($tmp_name,$video_upload_path); // ładowanko 
 
                             
-                                    $sql_videos="INSERT INTO entries_videos(video_url) VALUES('$new_video_name')";
+                                    $sql_videos="INSERT INTO entries_videos(video_url) VALUES('$new_video_name')"; //dodanie nazwy pliku do bd
 
-                            $mysqli_query= $conn->query($sql_videos);
+                            $mysqli_query= $conn->query($sql_videos); // zapytanie dodające nazwę pliku 
 
 
 
