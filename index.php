@@ -121,14 +121,11 @@
   
 <div class='player'>
 
+                  <div class="video_player">
+              
+                      
 
-  
-                           <video controls class="video_player">
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                           </video>
-
-             
+                  </div>
   
      
         <div class="list_media">

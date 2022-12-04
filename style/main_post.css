@@ -159,6 +159,15 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
   }
   
+.video_player{
+
+width: 100%;
+height: 190px;
+border:1px solid black;
+
+}
+
+
   video{
   
     border-radius: 10px; 
