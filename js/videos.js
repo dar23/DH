@@ -14,7 +14,7 @@ e.addEventListener('click', ()=>{ // każdy element listy kliknięty wykona kod 
 
  place_player.innerHTML= "<video controls><source src='' type='video/mp4'></video>";
 
-//źle to jest :-(
+
  
 });
 
