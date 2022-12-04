@@ -122,11 +122,8 @@
 <div class='player'>
 
 
-
-
-
   
-                           <video controls>
+                           <video controls class="video_player">
                                 <source src="mov_bbb.mp4" type="video/mp4">
                                 <source src="mov_bbb.ogg" type="video/ogg">
                            </video>
@@ -284,6 +281,7 @@
 
 <script src="js/search.js"></script>
 
+<script src="js/videos.js"></script>
 
 
 
