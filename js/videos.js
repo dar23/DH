@@ -15,9 +15,7 @@ e.addEventListener('click', ()=>{ // każdy element listy kliknięty wykona kod 
     const  video_source=e.querySelector('source').src;  // zmienna pobierająca ścieżkę klikniętego filmiku :) 
    
 
-
-
- place_player.innerHTML=video_source;
+ place_player.innerHTML= "<video controls><source src='' type='video/mp4'></video>";
 
 //źle to jest :-(
  
