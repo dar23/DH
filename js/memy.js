@@ -10,7 +10,7 @@ photo.forEach(e=>{
         const photo_src=e.src;
 
               
-            main_photo.innerHTML=`<img src="${photo_src}" class="big" >`;;
+            main_photo.innerHTML=`<img src="${photo_src}" class="big" >`;
 
 
 });
