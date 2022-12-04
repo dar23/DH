@@ -123,7 +123,9 @@
 
                   <div class="video_player">
               
-                      
+                           <video controls >
+                                <source src="mov_bbb.mp4" type="video/mp4">
+                           </video>
 
                   </div>
   
