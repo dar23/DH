@@ -2,10 +2,9 @@
 
 
 
-if(isset($_POST['submit']) && isset($_FILES['my_video'])){
 
 
-   
+if(!empty($_FILES['my_video']['name'])  && isset($_POST['submit']) && isset($_FILES['my_video']['name'])){       
     
     $video_name=$_FILES['my_video']['name'];
     $tmp_name=$_FILES['my_video']['tmp_name'];
@@ -55,19 +54,18 @@ if(isset($_POST['submit']) && isset($_FILES['my_video'])){
 
         }
 
-
-
-
-
-
-
-
-
-
+        header('Location:index.php');
 
 
     }
 
+
+
+
+
+
+
+    
 
 
 

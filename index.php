@@ -121,6 +121,10 @@
   
 <div class='player'>
 
+
+
+
+
                   <div class="video_player">
               
                            <video controls >
@@ -132,10 +136,16 @@
      
         <div class="list_media">
 
-            <?php              
-                $videos = "SELECT DISTINCT * FROM entries_videos ORDER BY id DESC ";
+            <?php    
+            
+            
+          
+
+
+                $videos = "SELECT DISTINCT * FROM  entries_videos ORDER BY id DESC ";
                 $result=$conn->query($videos);
 
+               
 
                               while($row = mysqli_fetch_array($result)){
 
@@ -147,6 +157,10 @@
                                   
                                   echo '</div>';
                               };
+
+            
+
+                            
                       ?>
                                
         </div>                
