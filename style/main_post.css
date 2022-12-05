@@ -172,7 +172,7 @@ height: 190px;
   
     border-radius: 10px; 
     width:100%;
-  
+ 
     display: grid;  
     grid-template-columns:1fr ; 
     grid-template-rows:90% ; 
