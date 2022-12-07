@@ -123,16 +123,33 @@
 
 
 
+<?php
+   
 
+   $videos1 = "SELECT DISTINCT * FROM  entries_videos ORDER BY id DESC ";
+   $result=$conn->query($videos1);
 
-                  <div class="video_player">
+     
+
+               echo     '<div class="video_player">';  
+        
+               echo     '<video controls>';
+               
+               while($row = mysqli_fetch_array($result)){
+                
+               echo   '<source src="actually/'.$row['video_url'].'   "  type="video/mp4">';
+                }
+               echo  '</video>';
+
               
-                           <video controls >
-                                <source src="" type="video/mp4">
-                           </video>
 
-                  </div>
-  
+
+               echo    '</div>';
+
+      
+
+
+  ?>
      
         <div class="list_media">
 
@@ -150,9 +167,9 @@
                               while($row = mysqli_fetch_array($result)){
 
                                   echo '<div class="video_container">';
-                                  
-                                  echo '<video class="video_list">'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
                                   echo '<div class="number_video">'.$row['id'].'</div>';
+                                  echo '<video class="video_list">'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
+                                 
                                   
                                   
                                   echo '</div>';
