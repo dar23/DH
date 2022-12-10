@@ -1,7 +1,7 @@
 .part_1{
 
   display: grid;
-  grid-template-columns: 400px 900px 1fr  ;
+  grid-template-columns: 400px 1060px 1fr  ;
   grid-template-rows:60px auto;
   gap: 5px 5px 5px;
   background-color: #ffffff;
@@ -15,7 +15,7 @@
     display: grid; 
     margin-left: 110px;
     margin-top: 90px;
-    width: 70%;
+    width:80%;
     height: 700px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -29,7 +29,7 @@
 width:90%;
 display: grid;  
 grid-template-columns:1fr ; 
-grid-template-rows:80% ; 
+grid-template-rows:90% ; 
 gap:5px;
 border:1px;
 

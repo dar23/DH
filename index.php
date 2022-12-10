@@ -182,7 +182,7 @@
                                
         </div>                
             
-            <div class="upload">
+         
                   
                       <?php
                                       
@@ -197,16 +197,6 @@
 
                               
 
-                  <form  method="post" enctype="multipart/form-data"  >
-
-                      <input type="file" name="my_video">
-                      <input type="submit" name="submit" value="upload">
-                      </form>
-
-           </div> 
-
-            
-                      
               
 
 

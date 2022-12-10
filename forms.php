@@ -4,7 +4,7 @@
 require ('connection.php') ;
 require('admin.php');
 
-
+require('player.php');
 ?>
 
 <!DOCTYPE html>
@@ -141,6 +141,18 @@ require('admin.php');
         <input type="file" name="file"></input> 
         <input type="submit" name="submit"></input> 
 </form>
+
+
+
+
+<form method="post"  enctype="multipart/form-data">
+    <div class="main">VIDEOS</div>
+    <input type="text" name="title" placeholder="tytuł nagłówka"></input> 
+    
+        <input type="file" name="my_video"></input> 
+        <input type="submit" name="submit" value="upload"></input> 
+</form>
+
 
 
 
