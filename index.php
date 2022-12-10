@@ -104,6 +104,7 @@
                           .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,30,"...").'</p>' 
                           .'</div>' 
                           
+                       
                    
                         
                ."</div>";
@@ -113,8 +114,7 @@
             
 
 
-              $sqli_vid = "SELECT DISTINCT * FROM videos ORDER BY id DESC";
-              $result=$conn->query($sqli_vid);
+            
               
   ?>
   
