@@ -133,7 +133,7 @@
 
                echo     '<div class="video_player">';  
         
-               echo     '<video controls>';
+               echo     '<video controls id="time_video">';
                
                while($row = mysqli_fetch_array($result)){
                 
@@ -168,7 +168,7 @@
 
                                   echo '<div class="video_container">';
                                   echo '<div class="number_video">'.$row['id'].'</div>';
-                                  echo '<video class="video_list">'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
+                                  echo '<video class="video_list" >'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
                                  
                                   
                                   
@@ -316,7 +316,7 @@
 <script src="js/videos.js"></script>
 
 
-
+<script src="js/second_player.js"></script>
 
 
 

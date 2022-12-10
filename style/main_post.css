@@ -172,7 +172,7 @@ height: 200px;
   
     border-radius: 10px; 
     width:100% !important;
-    max-height: 280px !important; 
+    max-height: 200px ; 
     object-fit: fill;
     display: grid;  
     grid-template-columns:1fr ; 
@@ -207,8 +207,13 @@ margin-left: 1%;
 
 }
 
+
+
+
+
+
 .number_video{
-width: 70%;
+width: 50%;
 font-family: Arial, Helvetica, sans-serif;
 font-size:15px;
 text-align: center;
