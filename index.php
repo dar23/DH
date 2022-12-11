@@ -166,7 +166,7 @@
 
                echo     '<div class="video_player">';  
         
-               echo     '<video controls id="time_video">';
+               echo     '<video controls  class="time_video">';
                
                while($row = mysqli_fetch_array($result)){
                 
