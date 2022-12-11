@@ -13,18 +13,19 @@ videos.forEach(e=>{
 
 e.addEventListener('click', ()=>{ // każdy element listy kliknięty wykona kod zawarty w klamrze
 
-   
-    const  video_source=e.querySelector('source').src;  // zmienna pobierająca ścieżkę klikniętego filmiku :) 
+    const video_source=e.querySelector('source').src;  // zmienna pobierająca ścieżkę klikniętego filmiku :) 
    
 
- place_player.innerHTML= `<video controls class="video_player"><source src='${video_source}' type="video/mp4"></video>`;
-
+ place_player.innerHTML= `<video controls autoplay  class="time_video"><source src='${video_source}' type="video/mp4"></video>`;
 
 
 });
 
 
 });
+
+
+
 
 
 
