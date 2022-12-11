@@ -110,8 +110,28 @@
                ."</div>";
                
 
+               echo "<div class='main_post1'>"       
+                     
 
+               .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'.'</a>'                       
+               ."<div class='title'>"
+               .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,30,"...").'</p>' 
+               .'</div>' 
+               
             
+        
+             
+    ."</div>";
+
+
+
+
+
+
+
+
+
+
               }
             
 
@@ -119,35 +139,6 @@
             
               
   ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -224,7 +215,8 @@
                                
         </div>                
             
-         
+      
+</div>   
                   
                       <?php
                                       
@@ -295,7 +287,6 @@
 ?>
 
 
-</div>
 
 
 
