@@ -83,7 +83,7 @@ if(isset($_POST['humor_title']) && !empty($_FILES['humor_file']['name'])){
 
 // output
 
- // imagejpeg($black_target, 'processed/'.$picture_humor);
+ // imagejpeg($black_target, 'processed/'.$picture_humor);trt
 
 
 
