@@ -110,7 +110,7 @@
                ."</div>";
                
 
-               echo "<div class='main_post1'>"       
+               echo "<div class='entries_post'>"       
                      
 
                .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'.'</a>'                       
