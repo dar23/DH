@@ -118,10 +118,11 @@
                while($row = mysqli_fetch_array($result)){
                   
             $rowtitle=$row['title'];
+
             echo '<div class="one_entry">'
                 .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'"  class="photos"  >'.'</a>'                       
-               ."<div class='title1'>"
-               .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,30,"...").'</p>' 
+               ."<div class='header_entry'>"
+               .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,130,"...").'</p>' 
                .'</div>' ;
             echo '</div>';   
                };

@@ -18,6 +18,7 @@ height:300px}
 height: 310px;
 overflow-y:scroll;
 
+width: 104%;
 }
 
 
@@ -41,18 +42,21 @@ height:90px;
 }
 
 
-.title1{
-  width: 50%;
-  height:50px; margin-left:50px;
- margin:20px;
+.header_entry{
+  width:70%;
+  height:90px; margin-left:10px;
+ 
   backdrop-filter: blur(0.6px);
-
+  background: rgb(135, 135, 135);
   
-  font-size:20px;
+  font-size:14px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
-  color:rgb(0, 0, 0);
-
+  color:rgb(244, 244, 244);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px ;
+border-bottom-right-radius:10px;
   }
   
 
