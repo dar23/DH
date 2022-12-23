@@ -113,21 +113,21 @@
             $sqli = "SELECT DISTINCT * FROM posts ORDER BY id DESC LIMIT 10";
             $result=$conn->query($sqli);
 
-               echo "<div class='entries_post'>";       
+    echo "<div class='entries_post'>";       
                      
                while($row = mysqli_fetch_array($result)){
                   
             $rowtitle=$row['title'];
-      
-               echo '<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'.'</a>'                       
+            echo '<div class="one_entry">'
+                .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'.'</a>'                       
                ."<div class='title'>"
                .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,30,"...").'</p>' 
                .'</div>' ;
-               
+            echo '</div>';   
                };
         
              
-          echo "</div>";
+     echo "</div>";
 
 
 

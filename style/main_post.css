@@ -15,10 +15,21 @@
 height:300px}
 
 .entries_post{ grid-area: 2 / 1 / 3 / 2;
-height: 310px; }
+height: 310px;
+overflow-y:scroll;
+
+}
+
+
+.one_entry{
+
+height: 40px;
+margin:10px;
 
 
 
+
+}
 
 
 
