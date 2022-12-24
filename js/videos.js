@@ -8,7 +8,6 @@ const time_video=document.querySelector('.time_video');
 
 
 
-
 videos.forEach(e=>{
 
 e.addEventListener('click', ()=>{ // każdy element listy kliknięty wykona kod zawarty w klamrze

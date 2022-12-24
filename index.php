@@ -207,9 +207,9 @@
                               while($row = mysqli_fetch_array($result)){
 
                                   echo '<div class="video_container">';
-                                  echo '<div class="number_video">'.$row['id'].'</div>';
+                                
                                   echo '<video class="video_list" >'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
-                                 
+                                  echo '<div class="number_video">'.$row['id'].'</div>';
                                   
                                   
                                   echo '</div>';
