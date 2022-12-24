@@ -101,7 +101,7 @@
 
                           .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'">'.'</a>'                       
                           ."<div class='title'>"
-                          .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,30,"...").'</p>' 
+                          .'<p class="title_text_main">'.mb_strimwidth("$rowtitle",0,30,"...").'</p>' 
                           .'</div>' 
                           
                        
@@ -122,7 +122,7 @@
             echo '<div class="one_entry">'
                 .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'"  class="photos"  >'.'</a>'                       
                ."<div class='header_entry'>"
-               .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,330,"...").'</p>' 
+               .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,230,"...").'</p>' 
                .'</div>' ;
             echo '</div>';   
                };
