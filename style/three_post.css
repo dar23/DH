@@ -14,7 +14,7 @@
   .container_three_posts {
     display: grid; 
     margin-left: 110px;
-    margin-top: 90px;
+    margin-top: 95px;
     width:80%;
     height: 700px;
     overflow-y: auto;

@@ -6,7 +6,7 @@
 
   grid-column-gap: 20px;
   grid-row-gap: 10px;
-  margin-top: 90px;
+  margin-top: 95px;
   margin-left: 20px;
   
 }
@@ -39,7 +39,7 @@ display:block;
 .one_entry{
 width: 100%;
 height:50px;
-margin-bottom:50px;
+margin-bottom:55px;
 display:flex;
 justify-content:start;
 justify-items: center;
@@ -104,7 +104,7 @@ bottom:50px;
 backdrop-filter: blur(0.6px);
 background: rgba(157, 157, 157, 0.388);
 
-font-size:20px;
+font-size:17px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 color:rgb(255, 255, 255);
@@ -115,15 +115,16 @@ border-bottom-right-radius: 10px;
 
 .title_text{
 
-  text-align: left;
-  padding-left:20px;
-  padding-top: 10px;
-  letter-spacing: 1.5px;
+text-align: justify;
+text-justify: inter-word;
+  padding-left:12px;
+  padding-right: 12px;
+  padding-top: 16px;
+ line-height:135%;
   margin:0;
-
+font-size: 10px;
   }
   
-
 
 a{
  height: 100%;
@@ -188,13 +189,13 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 @keyframes lefting_three {
 
   from{transform: translateX(0%);}
-  to{transform: translateX(29%);}
+  to{transform: translateX(22%);}
   
 }
 
 @keyframes lefting1_three {
 
-  from{transform: translateX(29%);}
+  from{transform: translateX(22%);}
   to{transform: translateX(0%);}
   
 }
@@ -207,13 +208,13 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 @keyframes lefting {
 
   from{transform: translateX(0%);}
-  to{transform: translateX(9%);}
+  to{transform: translateX(6%);}
   
 }
 
 @keyframes lefting1 {
 
-  from{transform: translateX(9%);}
+  from{transform: translateX(6%);}
   to{transform: translateX(0%);}
   
 }
@@ -257,7 +258,7 @@ height:305px;
   height: 322px;
  overflow-y: auto;
  overflow-x: hidden;
-margin-top:10px;
+margin-top:14px;
 margin-left: 1%;
 }
 
