@@ -173,7 +173,7 @@
 
                echo     '<div class="video_player">';  
         
-               echo     '<video controls autoplay class="time_video">';
+               echo     '<video controls autoplay >';
                
                while($row = mysqli_fetch_array($result)){
                 
@@ -205,11 +205,11 @@
                
 
                               while($row = mysqli_fetch_array($result)){
-
+                                $descr=$row['video_describe'];
                                   echo '<div class="video_container">';
                                 
                                   echo '<video class="video_list" >'.'<source src="actually/'.$row['video_url'].'   ">'.'</video>';
-                                  echo '<div class="number_video">'.$row['id'].'</div>';
+                                  echo '<div class="number_video">'.'<p class="title_text_video">'.mb_strimwidth("$descr",0,350,"...").'</p>'.'</div>';
                                   
                                   
                                   echo '</div>';

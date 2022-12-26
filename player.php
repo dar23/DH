@@ -9,7 +9,7 @@ if(!empty($_FILES['my_video']['name'])  && isset($_POST['submit']) && isset($_FI
     $video_name=$_FILES['my_video']['name'];
     $tmp_name=$_FILES['my_video']['tmp_name'];
     $error=$_FILES['my_video']['error'];
-    
+    $describe_video=$_POST['describe_video'];
     
 
         if(!$error){
@@ -28,9 +28,10 @@ if(!empty($_FILES['my_video']['name'])  && isset($_POST['submit']) && isset($_FI
                           $video_upload_path="actually/".$new_video_name;  // ścieżka pliku, gdzie ma być zapisany
 
                                 move_uploaded_file($tmp_name,$video_upload_path); // ładowanko 
-
+                             
+                               
                             
-                                    $sql_videos="INSERT INTO entries_videos(video_url) VALUES('$new_video_name')"; //dodanie nazwy pliku do bd
+                                    $sql_videos="INSERT INTO entries_videos(video_describe,video_url) VALUES('$describe_video','$new_video_name')"; //dodanie nazwy pliku do bd
 
                             $mysqli_query= $conn->query($sql_videos); // zapytanie dodające nazwę pliku 
 

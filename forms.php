@@ -148,9 +148,13 @@ require('player.php');
 <form method="post"  enctype="multipart/form-data">
     <div class="main">VIDEOS</div>
     <input type="text" name="title" placeholder="tytuł nagłówka"></input> 
+    <input type="text" name="describe_video"></input> 
+  
+    <input type="file" name="my_video"></input> 
+    <input type="submit" name="submit" value="upload"></input> 
     
-        <input type="file" name="my_video"></input> 
-        <input type="submit" name="submit" value="upload"></input> 
+     
+       
 </form>
 
 
