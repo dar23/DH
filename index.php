@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="style/main_post.css">
     <link rel="stylesheet" href="style/news.css">  
     <link rel="stylesheet" href="style/three_news.css">
-    <link rel="stylesheet" href="style/video_player.css">
+    <link rel="stylesheet" href="style/video.css"> 
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -196,8 +197,6 @@
             <?php    
             
             
-          
-
 
                 $videos = "SELECT DISTINCT * FROM  entries_videos ORDER BY id DESC ";
                 $result=$conn->query($videos);
