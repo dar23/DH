@@ -88,7 +88,7 @@ position:relative;
 bottom:50px;
 backdrop-filter: blur(0.6px);
 background: rgba(157, 157, 157, 0.388);
-
+text-decoration: none;
 font-size:17px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -99,7 +99,7 @@ border-bottom-right-radius: 10px;
 
    
 .title_text{
-
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: justify;
 text-justify: inter-word;
   padding-left:12px;
@@ -110,8 +110,12 @@ text-justify: inter-word;
 font-size: 10px;
   }
  
+a{
 
- 
+text-decoration: none;
+color:white;
+}
+
 
 
 

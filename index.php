@@ -121,9 +121,9 @@
             $rowtitle=$row['title'];
 
             echo '<div class="one_entry">'
-                .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'"  class="photos"  >'.'</a>'                       
+                .'<a href="news.php?id='.$row['id'].'">'.'<img src="main/'.$row["pictures"].'"  class="photos"  >'                      
                ."<div class='header_entry'>"
-               .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,230,"...").'</p>' 
+               .'<p class="title_text">'.mb_strimwidth("$rowtitle",0,230,"...").'</p>' .'</a>' 
                .'</div>' ;
             echo '</div>';   
                };
