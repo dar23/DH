@@ -19,8 +19,8 @@
     video{
   
         border-radius: 10px; 
-        width:100% !important;
-        max-height: 310px ; 
+        width:110% !important;
+        height: 340px ; 
         object-fit:cover;
     
         display: grid;  
@@ -32,7 +32,7 @@
     
     .list_media{
      
-      width: 105%;
+      width: 114%;
       height: 322px;
      overflow-y: auto;
      overflow-x: hidden;
@@ -48,7 +48,8 @@
       height:90px;
       margin:12px;
       margin-left:0;
-      margin-top:10px;
+      margin-top:50px;
+      margin-bottom: -40px;
       display:flex;
       flex-direction: row;
     
