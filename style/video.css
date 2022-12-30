@@ -32,7 +32,7 @@
     
     .list_media{
      
-      width: 114%;
+      width: 117%;
       height: 322px;
      overflow-y: auto;
      overflow-x: hidden;
@@ -44,12 +44,12 @@
     
     .video_container{
       
-      width: 100%;
+      width:98%;
       height:90px;
       margin:12px;
       margin-left:0;
-      margin-top:30px;
-      margin-bottom: -10px;
+      margin-top:25px;
+      margin-bottom: -15px;
       display:flex;
       flex-direction: row;
     
@@ -61,18 +61,18 @@
      
 
 .number_video{
-width:70%;
+width:100%;
 margin-right: 21px;
 font-family: Arial, Helvetica, sans-serif;
 font-size:13px;
 text-align: left;
 line-height: 130px;
-background: rgb(240, 240, 240) ;
+background: rgb(101, 101, 101) ;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 border-top-left-radius:10px ;
 border-top-right-radius:10px;
-color:rgb(40, 40, 40);
+color:rgb(255, 255, 255);
 
 
 
