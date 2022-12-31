@@ -8,7 +8,7 @@
 
     .video_player{
 
-        width: 100%;
+        width: 103.5%;
         height:305px;
         
         
@@ -19,10 +19,10 @@
     video{
   
         border-radius: 10px; 
-        width:110% !important;
+        width:103.5% !important;
         height: 330px ; 
-        object-fit:cover;
-    
+        object-fit:fill;
+    aspect-ratio:16/9;
         display: grid;  
         grid-template-columns:1fr ; 
         grid-template-rows:90% ; 

@@ -33,5 +33,3 @@ e.addEventListener('click', ()=>{ // każdy element listy kliknięty wykona kod 
 
 
 
-
-
