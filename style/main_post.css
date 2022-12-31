@@ -198,13 +198,13 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 @keyframes lefting_three {
 
   from{transform: translateX(0%);}
-  to{transform: translateX(18%);}
+  to{transform: translateX(19%);}
   
 }
 
 @keyframes lefting1_three {
 
-  from{transform: translateX(18%);}
+  from{transform: translateX(19%);}
   to{transform: translateX(0%);}
   
 }
