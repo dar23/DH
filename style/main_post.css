@@ -1,18 +1,16 @@
 .place_to_posts{
  
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-
-
   grid-column-gap: 20px;
   grid-row-gap: 10px;
   margin-top: 95px;
-  margin-left: 20px;
+  margin-left:20px;
   
 }
 
 .main_post{grid-area: 1 / 1 / 2 / 2 ;
-height:309px
+height:309px;
+width:550px;
 }
 
 .entries_post{ grid-area: 2 / 1 / 3 / 2;
@@ -57,7 +55,7 @@ height:90px;
 
 
 .header_entry{
-  width:70%;
+  width:100%;
   height:90px; margin-left:10px;
  
   backdrop-filter: blur(0.6px);
