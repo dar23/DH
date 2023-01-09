@@ -22,7 +22,7 @@
         width:100% !important;
         height: 310px ; 
         object-fit:fill;
-        aspect-ratio:16/9;
+       
         display: grid;  
         grid-template-columns:1fr ; 
         grid-template-rows:90% ; 
@@ -32,7 +32,7 @@
     
     .list_media{
      
-      width: 100%;
+      width: 103.5%;
       height: 322px;
      overflow-y: auto;
      overflow-x: hidden;
